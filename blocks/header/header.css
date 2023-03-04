@@ -43,7 +43,13 @@ header nav .nav-brand p {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  display: block;
+  opacity: 1;
+  width: 185px;
+  height: 32.5358px;
 }
 
 /* hamburger */
