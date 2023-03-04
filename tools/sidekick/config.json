@@ -1,5 +1,4 @@
 {
-  "project": "GRC",
-  "plugins": [
-  ]
+  "project": "franklin-grc",
+  "plugins": []
 }
