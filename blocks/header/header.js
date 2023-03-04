@@ -18,6 +18,7 @@ function collapseAllNavSections(sections) {
 
 export default async function decorate(block) {
 
+  const navPath = "";
 
   const resp = await fetch(`${navPath}/nav.plain.html`, window.location.pathname.endsWith('/nav') ? { cache: 'reload' } : {});
   if (resp.ok) {
