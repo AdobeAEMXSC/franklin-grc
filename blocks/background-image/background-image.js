@@ -9,7 +9,6 @@ function nextImage() {
     currentImage++;
 }
 
-
 export default function decorate(block) {
 
     // change body CSS for background image block
