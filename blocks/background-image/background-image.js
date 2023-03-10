@@ -1,7 +1,6 @@
 var bgImages = [];
 var currentImage = 0;
 
-
 function nextImage() {    
 
     if (currentImage == bgImages.length) currentImage = 0;
